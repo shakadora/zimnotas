@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-10-05T10:09:25+02:00
+
+====== tweaks ======
+Created Sunday 05 October 2025
+
+**yazi blijft dingen openen met vim**
+	aangepast, wss niet allemaal nodig :
+		-bash_profile (in ~)
+			added export EDITOR='kate'
+		-yazi.toml (in [[~/.config/yazi]])
+			in [opener] : EDITOR:-vi  veranderd in EDITOR:kate
+			in [open] : added prepend rules
+
+
+**Harde schijven willen password om te mounten**
+	HDD : 
+		aangepast in etc/fstab :
+			1. lsblk -f om drive's UUID te vinden
+			2. edit /etc/fstab
+				UUID=<drive-uuid> <mount-point> <filesystem-type> <options> 0 2
+					UUID = resultaat van lsblk -f
+					mount point = directory waar drive moet te vinden zijn
+					file system type = bvb btrfs, ext4, ...
+					options = ???
+					0 2 = ???
+
+	ext SSD's : 	
+		nog proberen (eerst rood!)
+		
+
+**SDDM veel te kleine font voor login screen**
+	config kopie van [[/usr/lib/sddm/sddm.conf.d]]
+		naar etc/sddm.conf.d
+	rename van default.conf 
+		naar sddm.conf
+	 lijn 17 :  GreeterEnvironment =QT_SCREEN_SCALE_FACTORS=2,QT_FONT_DPI=192
+
+	
+**fastfetch**
+	aanmaken config file met 
+		fastfetch --gen-config-full
+		edit gegenereerd file (in [[~/.config/fastfetch]])
+

@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-10-06T22:28:11+02:00
+
+====== dotfiles ======
+Created Monday 06 October 2025
+
+1. welke files hebben de configs?
+2. die files moeten gebackup'd
+		-git
+		-account maken! -> SHAKADORA
+	a. da's dan handiger als die allemaal in één folder zitten
+		-alles in ~/dotfiles
+	b. en al de originele files op de normale plekken eigenlijk symlinks zijn naar die ene folder
+		-programma Dotfiles doet dat?
+3. en kunnen dan syncen op één of andere manier
+		git clone https://github.com/shakadora.plasma-dotfiles.git ~/dotfiles
+
+		
+Kijken of config-scripts doenbaar zijn
+	-installeren of updaten alle apps
+	-maakt en clonet dotfiles folder
+	-maakt alle nodige symlinks aan
+

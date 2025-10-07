@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-10-03T20:16:56+02:00
+
+====== yazi ======
+Created Friday 03 October 2025
+
+KEYBINDS
+--------------------
+y	Yank (copy)
+Y	Unyank
+p	Paste
+d	Delete (trash)
+D	Delete permanently
+
+.	Toggle 'hidden'
+o	Open
+q	Quit
+
+a	Create file
+r	Rename
+
+z	fzf search
+Z	zoxide search
+s	fd search (filename)
+S	ripgrep search (content)
+
+c	copy (filepath/directory/...)
+g	goto (~/ , [[~/.config]] , ...)
+
+t	create new tab
+	1,2, 3, ..	goto tab nr#
+	[, ]			previous/next tab

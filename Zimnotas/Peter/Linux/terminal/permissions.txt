@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-10-03T19:57:15+02:00
+
+====== permissions ======
+Created Friday 03 October 2025
+
+permissies naar huidige user overdragen : 
+sudo chown $USER:$USER /run/media/peter/T72

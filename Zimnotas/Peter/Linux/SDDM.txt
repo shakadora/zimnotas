@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-10-05T17:42:19+02:00
+
+====== SDDM ======
+Created Sunday 05 October 2025
+
+login screen 
+locaties : 
+sddm config : [[/etc/sddm.conf.d]]
+theme en config : [[/usr/share/sddm/themes]]
+
+lock screen via KDE settings
